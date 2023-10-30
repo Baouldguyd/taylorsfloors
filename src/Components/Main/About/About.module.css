@@ -1,0 +1,57 @@
+@media only screen and (min-width: 500px) {
+    .body{
+        height: 80vh;
+        margin-top: 1rem;
+    }
+
+    .abt_text{
+        height: 100%;
+        width: 40vw;
+    }
+
+    .abt_head{
+        font-size: 2.7rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    .abt_word{
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+
+    .abt_img {
+        height: 100%;
+        width: 40vw;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .body{
+        height: auto;
+        margin-top: 1rem;
+        padding: 7px;
+    }
+    .abt_text{
+        height: 100%;
+        width: auto;
+    }
+    .abt_head{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .abt_word{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .abt_img {
+        height: 90%;
+        width: 100vw;
+        margin-top: 1rem;
+    }
+
+}

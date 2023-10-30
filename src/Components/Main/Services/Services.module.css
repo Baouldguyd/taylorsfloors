@@ -1,0 +1,133 @@
+@media only screen and (min-width: 500px) {
+    .body{
+        height: 80vh;
+        
+    }
+
+    .h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .p{
+        text-align: center;
+        width: 90vw;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .dream{
+        text-align: center;
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: bold;
+        margin: 0 auto;
+        color: #583822;
+    }
+
+    .service_box{
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+    .box{
+        height: 50vh;
+        width: 20rem;
+        border-radius: 10px;
+        border: 2px solid #583822;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+        transition: transform 0.3s ease;
+    }
+
+    .box:hover{
+        transform: scale(1.05) rotateX(10deg);
+    }
+
+    .box_img{
+        height: 50%;
+        background-color: rebeccapurple;
+    }
+
+    .box_p {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        color: #583822;
+        margin-top: 1rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .body{
+        height: auto;
+        
+    }
+
+    .h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .p{
+        text-align: center;
+        width: 90vw;
+        margin: 0 auto;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .dream{
+        text-align: center;
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: bold;
+        margin: 0 auto;
+        color: #583822;
+    }
+
+    .service_box{
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .box{
+        height: 40vh;
+        width: 20rem;
+        border-radius: 10px;
+        border: 2px solid #583822;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+        transition: transform 0.3s ease;
+    }
+
+    .box:hover{
+        transform: scale(1.05) rotateX(10deg);
+    }
+
+    .box_img{
+        height: 70%;
+        background-color: rebeccapurple;
+    }
+
+    .box_p {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        color: #583822;
+        margin-top: 1rem;
+    }
+
+}

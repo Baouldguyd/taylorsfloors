@@ -1,0 +1,100 @@
+@media only screen and (min-width: 500px) {
+    *{
+        font-family: 'Comfortaa', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+  .body {
+    height: 80vh;
+    margin-top: 1rem;
+  }
+  .h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .car_p {
+    font-size: 3.5rem;
+    color: #583822;
+  }
+  .span {
+    font-size: 1rem;
+    color: #f6eedd;
+    font-weight: 200;
+    background-color: #583822;
+    width: 6rem;
+    height: 2.5rem;
+  }
+
+  .abt_word{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+  .content_style {
+    margin: 0;
+    height: 50vh;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    display: flex;
+    
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .floor_img {
+    width: 100vw;
+    
+  }
+
+  .abt_word{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+  .h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .car_p {
+    font-size: 2rem;
+    color: #583822;
+  }
+
+  .span {
+    font-size: 1.3rem;
+    color: #f6eedd;
+    font-weight: 200;
+    background-color: #583822;
+    width: 6rem;
+    height: 2.5rem;
+  }
+
+  .content_style {
+    margin: 0;
+    height: 50vh;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  
+
+
+}

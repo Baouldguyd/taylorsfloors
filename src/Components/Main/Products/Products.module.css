@@ -49,9 +49,19 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .floor_img {
+    .body {
+        height: auto;
+        margin-top: 1rem;
+      }
+  
+    .floor_img {
     width: 100vw;
+    height: 7rem;
     
+  }
+
+  .span{
+    display: block;
   }
 
   .abt_word{
@@ -75,17 +85,16 @@
   }
 
   .span {
-    font-size: 1.3rem;
+    font-size: 20px;
     color: #f6eedd;
     font-weight: 200;
     background-color: #583822;
-    width: 6rem;
-    height: 2.5rem;
+    
   }
 
   .content_style {
     margin: 0;
-    height: 50vh;
+    height: auto;
     color: #fff;
     line-height: 160px;
     text-align: center;

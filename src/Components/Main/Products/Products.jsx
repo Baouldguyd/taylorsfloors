@@ -9,7 +9,7 @@ const Products = () => {
 
       <p className={styles.abt_word} >
         Explore our wide range of flooring options. From the timeless beauty of
-        hardwood to the durability of laminate and the versatility of vinyl, we
+        hardwood to the durability of laminate and the versatility of vinyl, carpet cleaning, refined hardwood we
         have the perfect solution for every room in your home or office. Our
         experts will help you choose the ideal flooring to match your style and
         budget.

@@ -70,7 +70,8 @@ const ProductCarousel = () => {
         <div className={styles.content_style}>
           <img src={carpet} style={{ height: "100%", borderRadius: '7px', border: '4px solid #583822' }} alt="" />
           <div>
-            <p className={styles.car_p}>Carpet Cleaning</p>
+            <p className={styles.car_p}>Carpet Cleaning
+            </p>
             <span className={styles.span}>
                 Swipe Left 
                   <FaArrowAltCircleRight/>

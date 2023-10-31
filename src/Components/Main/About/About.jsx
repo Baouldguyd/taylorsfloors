@@ -8,7 +8,7 @@ const About = () => {
       <h1
         style={{
           textAlign: "center",
-          fontSize: '2rem'
+          
         }}
       >
         About Us
@@ -39,7 +39,7 @@ const About = () => {
           <p
           className={styles.abt_word}
           >
-            With 6 years of experience in the flooring industry, we have
+            With 25 years of experience in the flooring industry, we have
             become the trusted choice for homeowners and businesses alike. Our
             commitment to quality, craftsmanship, and customer satisfaction is
             what sets us apart.

@@ -24,7 +24,7 @@ const HeadContact = () => {
             gap: '1rem',
             marginRight: '1rem'
         }}>
-        <button className={styles.head_btn}>  <a href="tel:+19179986500" style={{ textDecoration: 'none', color: '#583822' }}> <FaPhone/> <span className={styles.cta}> CALL US TODAY</span></a> </button>
+        <button className={styles.head_btn}>  <a href="tel:+19173837843" style={{ textDecoration: 'none', color: '#583822' }}> <FaPhone/> <span className={styles.cta}> CALL US TODAY</span></a> </button>
         <button className={styles.head_btn}>  <a href="#" style={{ textDecoration: 'none', color: '#583822' }}> <FaBook/>  <span className={styles.cta}> GET A QUOTE</span> </a>  </button>
         <button className={styles.head_btn}> <a href="mailto:taylorfloorsinc@gmail.com" style={{ textDecoration: 'none', color: '#583822' }}> <FaEnvelope/> <span className={styles.cta}>CONTACT US</span> </a> </button>
         </div>

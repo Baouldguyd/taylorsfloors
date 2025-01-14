@@ -25,7 +25,7 @@ const Footer = () => {
             <a href="http://facebook.com/profile.php?id=100054371416711"><FaFacebook /></a>
             <a href="http://instagram.com/taylorsfloorsinc"><FaInstagram /></a>
             <a href="mailto:taylorsfloorsinc@gmail.com"><FaEnvelope /></a>
-            <a href="tel:+19179986500"><FaPhone /></a>
+            <a href="tel:+19173837843"><FaPhone /></a>
             </div>
             
           </div>

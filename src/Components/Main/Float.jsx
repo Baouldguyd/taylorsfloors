@@ -10,7 +10,7 @@ import { FloatButton, Switch } from 'antd';
 const App = () => {
     const openWhatsapp = () =>{
         window.open(
-            "https://wa.me/+19179986500"
+            "https://wa.me/+19173837843"
         )
     }
     
@@ -22,7 +22,7 @@ const App = () => {
     
     const openCall = () =>{
         window.open(
-            "tel:+19179986500"
+            "tel:+19173837843"
         )
     }
 

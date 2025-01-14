@@ -35,7 +35,7 @@ const Consultation = () => {
           </p> 
           <p className={styles.abt_word}>
             <FaPhone/>
-            <a href="tel:+19179986500" style={{ textDecoration: 'none', fontWeight: 'bold', color: 'black' }}> 9179986500 </a>
+            <a href="tel:+19173837843" style={{ textDecoration: 'none', fontWeight: 'bold', color: 'black' }}> 9173837843 </a>
           </p>
 
           <p className={styles.abt_word}>

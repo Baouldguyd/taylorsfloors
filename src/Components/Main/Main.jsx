@@ -5,11 +5,13 @@ import Consultation from './Consultation/Consultation';
 import Products from './Products/Products';
 import Services from './Services/Services';
 import Float from './Float';
+import Projects from './Projects/Projects';
 
 const Main = () => {
   return (
     <div>
         <About/>
+        <Projects/>
         <Products/>
         <Services/>
         <Clients />

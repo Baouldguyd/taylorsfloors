@@ -7,7 +7,7 @@ import maintain from '../../../Assets/Images/maintain.jpg';
 
 const Services = () => {
   return (
-    <div className={styles.body}>
+    <section id="services" className={styles.body}>
       <div>
         <h1 className={styles.h1}>Our Services</h1>
         <p className={styles.p}>
@@ -88,7 +88,7 @@ const Services = () => {
       </div>
 
 
-    </div>
+    </section>
   );
 };
 

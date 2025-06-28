@@ -53,7 +53,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.bottom}>
-        <p>© Copyright 2023 | Tayloor's Floors Inc</p>
+        <p>© Copyright {new Date().getFullYear()} | Tayloor's Floors Inc</p>
         <p>Terms of Use | Privacy Policy</p>
       </div>
     </div>

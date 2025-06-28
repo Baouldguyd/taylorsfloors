@@ -31,7 +31,8 @@ const App = () => {
     setOpen(checked);
   };
   return (
-    <>
+    <div
+      >
       <FloatButton.Group
         open={open}
         trigger="click"
@@ -54,7 +55,7 @@ const App = () => {
           margin: 16,
         }}
       />
-    </>
+    </div>
   );
 };
 export default App;

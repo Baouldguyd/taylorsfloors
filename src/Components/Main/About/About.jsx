@@ -4,11 +4,11 @@ import aboutImg from '../../../Assets/Images/about.jpg'
 
 const About = () => {
   return (
-    <div className={styles.body}>
+    <section id="about" className={styles.body}>
       <h1
         style={{
           textAlign: "center",
-          
+          marginTop: "2rem",
         }}
       >
         About Us
@@ -56,7 +56,7 @@ const About = () => {
             }} alt="" />
         </div>
       </div>
-    </div>
+    </section >
   );
 };
 

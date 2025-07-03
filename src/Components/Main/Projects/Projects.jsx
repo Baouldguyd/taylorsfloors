@@ -144,7 +144,7 @@ const Projects = () => {
       <h2 style={{ textAlign: "center", marginBottom: 24 }}>
         Recently Completed Flooring Projects
       </h2>
-      <Carousel  className="project-carousel" autoplay>
+      <Carousel className="project-carousel" autoplay>
         {projectImages.map((project, idx) => (
           <div key={idx}>
             <Card
@@ -156,41 +156,89 @@ const Projects = () => {
                   style={{ height: 500, objectFit: "cover" }}
                 />
               }
-            //   style={{ width: "100%" }}
-              
+              //   style={{ width: "100%" }}
             >
-              <Card.Meta
-                title={project.title}
-                description={project.description}
-              />
+              <Card.Meta title={""} description={""} />
             </Card>
           </div>
         ))}
       </Carousel>
 
-      <div style={{ marginTop: 50,  }}>
-        <h3 style={{ textAlign: "center", fontSize: "1.5rem", marginBottom: "24px" }}>Video Gallery</h3>
-        <div className="videos-frame">
-        <iframe
-          width="478"
-          height="849"
-          src="https://www.youtube.com/embed/sYQDZcauZ6c"
-          title="Taylors Floors Flooring"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <iframe
-          width="478"
-          height="849"
-          src="https://www.youtube.com/embed/mTxqa4PU6sc"
-          title="Taylors floors"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+      <div style={{ marginTop: 50 }}>
+        <h3
+          style={{
+            textAlign: "center",
+            fontSize: "1.5rem",
+            marginBottom: "24px",
+          }}
+        >
+          Video Gallery
+        </h3>
+        <div className="">
+          <h4
+            style={{
+              textAlign: "center",
+              fontSize: "1.5rem",
+              marginBottom: "24px",
+            }}
+          >
+            Before
+          </h4>
+          <div className="videos-frame">
+            <iframe
+              width="478"
+              height="600"
+              src="https://www.youtube.com/embed/sYQDZcauZ6c"
+              title="Taylors Floors Flooring"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              width="478"
+              height="600"
+              src="https://www.youtube.com/embed/mTxqa4PU6sc"
+              title="Taylors floors"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div style={{ marginTop: 50 }}>
+          <h4
+            style={{
+              textAlign: "center",
+              fontSize: "1.5rem",
+              marginBottom: "24px",
+            }}
+          >
+            After
+          </h4>
+          <div className="videos-frame">
+            <iframe
+              width="478"
+              height="600"
+              src="https://www.youtube.com/embed/SBc5pfSW9fA"
+              title="afterVideo"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              width="478"
+              height="600"
+              src="https://www.youtube.com/embed/-pXgsiOqY8M"
+              title="afterVideo2"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
